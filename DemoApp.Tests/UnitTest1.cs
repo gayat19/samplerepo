@@ -8,6 +8,6 @@ public class UnitTest1
     public void Add_ShouldReturnCorrectSum()
     {
         var calculator = new Calculator();
-        Assert.Equal(5, calculator.Add(2, 3));
+       Assert.Equal(6, calculator.Add(2, 3));
     }
 }
